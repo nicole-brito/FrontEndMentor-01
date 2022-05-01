@@ -5,51 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Summary</title>
-    <link rel="icon" href="/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
 </head>
-<body>
-    <style>
-        .primary-button {
-	background-color:#3929e0;
-	border-radius:10px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:16px;
-	padding:15px 98px;
-	text-decoration:none;
-    margin: none;
-}
-.primary-button:hover {
-	background-color: hsl(225, 100%, 94%);
-}
-.primary-button:active {
-	position:relative;
-	top:1px;
-}
-.title {
-    text-decoration: none;
-}
-.text {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-    </style>
-    <img src="/illustration-hero.svg" alt="ilustração de uma pessoa dançando com fones de ouvido ouvindo música">
-    <div>
-        <h1 class="title">Order Summary</h1>
-        <p class="text">You can now listen to millions of songs, audiobooks and podcasts on any device anywhere you like!</p>
-    </div>
-    <div>
-        <img src="/icon-music.svg" alt="ícone de música">
-        <h2>Annual Plan</h2>
-        <p>$59.99/year</p>
-        <p><a href="#">Change</a></p>
-    </div>
-    <div>
-        <a href="#" class="primary-button">Proceed to Payment</a> <br>
-        <a href="#">Cancel Order</a>
-    </div>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+    <main>
+        <header>
+            <img class="img-header" src="/images/illustration-hero.svg" alt="Ilustração">
+            <h1>Order Summary</h1>
+            <p>You can now listen to millions of songs, <br> audiobooks, and podcasts on any device <br> anywhere you like!</p>
+        </header>
+
+        <div class="plan">
+            <img class="icon" src="/images/icon-music.svg" alt="Icon">
+            <p class="price"> <strong> Annual Plan</strong> <br> $59.99/year</p>
+            <a class="change" href="#">Change</a>
+        </div>
+
+        <button>
+            <p>Proceed to Payment</p>
+        </button> <br>
+        <a class="cancel" href="#">Cancel Order</a>
+    </main>
+
 </body>
 </html>
